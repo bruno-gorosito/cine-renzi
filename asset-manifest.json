@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cine-renzi/static/css/main.86a14d4f.css",
-    "main.js": "/cine-renzi/static/js/main.2c04a0c5.js",
+    "main.js": "/cine-renzi/static/js/main.2dc96020.js",
     "static/js/787.0d617919.chunk.js": "/cine-renzi/static/js/787.0d617919.chunk.js",
     "static/media/01.jpg": "/cine-renzi/static/media/01.57bb68492e7921f7e59a.jpg",
     "static/media/landscape1.png": "/cine-renzi/static/media/landscape1.24ed28ad791e2f718c25.png",
@@ -14,11 +14,11 @@
     "static/media/landscape2.jpg": "/cine-renzi/static/media/landscape2.6f14ca70bc04f6782dc6.jpg",
     "index.html": "/cine-renzi/index.html",
     "main.86a14d4f.css.map": "/cine-renzi/static/css/main.86a14d4f.css.map",
-    "main.2c04a0c5.js.map": "/cine-renzi/static/js/main.2c04a0c5.js.map",
+    "main.2dc96020.js.map": "/cine-renzi/static/js/main.2dc96020.js.map",
     "787.0d617919.chunk.js.map": "/cine-renzi/static/js/787.0d617919.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86a14d4f.css",
-    "static/js/main.2c04a0c5.js"
+    "static/js/main.2dc96020.js"
   ]
 }
