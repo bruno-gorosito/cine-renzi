@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+:root {
+  --negro: rgb(0, 0, 0);
+  --blanco: rgb(232, 232, 232);
+  --rojoclaro: rgba(254, 167, 167, 0.998);
+  --rojo: rgba(167, 21, 21, 0.998);
+}
+
+*, ::before, ::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    min-height: 100vh;
+    color: var(--negro);
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--negro);
+    color: var(--blanco);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
+
+a {
+  padding: 0;
+}
+
+.navbar {
+  min-height: 6rem;
+  padding: 0;
+}
+
+.nav-link {
+  padding: 2.2rem 1.2rem;
+}
+
+.img-nav {
+  height: 100%;
+  max-height: 6rem;
+}
+
+h2, h4{
+  font-weight: 600;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+    color: var(--blanco)
+  }
+  
+  
+.bg-negro {
+  background-color: var(--negro);
+  color: var(--blanco) !important;
+}
+
+.contenedor-carrusel {
+  box-sizing: content-box;
+  height: 100%;
+  padding: 6rem 0 0 0;
+  max-height: calc(100vh - 4rem);  
+  overflow: hidden;
+}
+
+.contenedor-carrusel>img {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+li {
+  list-style: none;
+}
+
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.card {
+  width: calc(100% / 3 - 20px);
+  height: auto;
+  margin: 1rem 0.5rem;
+  overflow: hidden;
+}
+
+.card>img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.list-group-item {
+  padding: 1rem;
+  border-radius: 20%;
+  margin: 1rem 0.5rem;
+}
+
+/*FOOTER*/
+footer {
+  background-color: var(--negro);
+  margin: 0;
+  color: var(--blanco);
+  padding: 2rem;
+}
+
+footer  ul {
+  list-style: none;
+  margin: 0 0 2rem 0;
+  padding: 0;
+}
+
+footer li {
+  padding: 0.5rem;
+}
+
+footer p {
+  font-size: 1.2rem
+}
+
+
+@media (max-width: 992px) {
+  .nav-link {
+    padding: 1rem 0;
+  }
+
+  header {
+    position: relative;
+  }
+  
+
+  .contenedor-carrusel {
+    padding: 0;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .list-group-item {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 20%;
+    margin: 0;
+  }
+  
+}

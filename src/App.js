@@ -1,4 +1,5 @@
 import React from 'react';
+import Carrusel from './components/Carrusel';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Presentacion from './components/Presentacion';
@@ -9,11 +10,9 @@ import PeliculaState from './context/peliculaState';
 function App() {
   return (
     <PeliculaState>
-      <Header />
-      <Presentacion />
+      <Header />      
+      <Carrusel />
       <Principal />
-      <h2>Jajajajajajaj</h2>
-
       <Footer />
     </PeliculaState>
   );

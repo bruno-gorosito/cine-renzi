@@ -24,8 +24,11 @@ const Principal = () => {
     }, [diaseleccionado])
 
     return ( 
-        <div className='container'>
+        <div className='container mt-4'>
             <Barra />
+            {diaseleccionado 
+                ? <h2 className='text-center mt-4'>Peliculas del día {diaseleccionado[0].toUpperCase() + diaseleccionado.slice(1)}</h2>
+                : <h2 className='text-center mt-4'>Peliculas</h2>}
             <div className='card-container'>
                 {peliculasActual.length !== 0
                     ? (peliculasActual.map(pelicula => (
