@@ -12,6 +12,8 @@ function App() {
       <Header />
       <Presentacion />
       <Principal />
+      <h2>solis</h2>
+
       <Footer />
     </PeliculaState>
   );
