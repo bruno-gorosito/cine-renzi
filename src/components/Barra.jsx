@@ -7,6 +7,15 @@ const Barra = () => {
     const peliculasContext = useContext(PeliculaContext);
     const {seleccionarDia} = peliculasContext;
 
+    const elegirDia = e => {
+        seleccionarDia(e.target.value);
+        let claseActiva = document.getElementsByClassName('active');
+        for (let i = 0; i < claseActiva.length; i++ ) {
+            claseActiva[i].classList.remove('active');
+        } 
+        document.getElementById(`${e.target.value}`).classList.add('active');
+    }
+
     return ( 
 
         <ul class="list-group justify-content-center list-group-horizontal-lg">
@@ -14,49 +23,56 @@ const Barra = () => {
                 <button 
                     className="list-group-item rounded"
                     value='domingo'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='domingo'
+                    onClick={e => elegirDia(e)}
                 >Domingo</button>
             </li>
             <li>
                 <button 
                     className='list-group-item  rounded' 
                     value='lunes'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='lunes'
+                    onClick={e => elegirDia(e)}
                 >Lunes</button>
             </li>
             <li>
                 <button 
                     className='list-group-item rounded' 
                     value='martes'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='martes'
+                    onClick={e => elegirDia(e)}
                 >Martes</button>
             </li>
             <li>
                 <button 
                     className='list-group-item rounded' 
                     value='miercoles'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='miercoles'
+                    onClick={e => elegirDia(e)}
                 >Miércoles</button>
             </li>
             <li>
                 <button 
                     className='list-group-item rounded' 
                     value='jueves'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='jueves'
+                    onClick={e => elegirDia(e)}
                 >Jueves</button>
             </li>
             <li>
                 <button 
                     className='list-group-item rounded' 
                     value='viernes'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='viernes'
+                    onClick={e => elegirDia(e)}
                 >Viernes</button>
             </li>
             <li>
                 <button 
                     className='list-group-item rounded' 
                     value='sabado'
-                    onClick={e => seleccionarDia(e.target.value)}
+                    id='sabado'
+                    onClick={e => elegirDia(e)}
                 >Sábado</button>
             </li>
         </ul>
