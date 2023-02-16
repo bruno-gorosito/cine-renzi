@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Presentacion />
       <Principal />
-      <h2>solis</h2>
+      <h2>Jajajajajajaj</h2>
 
       <Footer />
     </PeliculaState>
