@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/cine-renzi/static/css/main.745e386a.css",
+    "main.js": "/cine-renzi/static/js/main.d474087c.js",
+    "static/js/787.0d617919.chunk.js": "/cine-renzi/static/js/787.0d617919.chunk.js",
+    "static/media/01.jpg": "/cine-renzi/static/media/01.57bb68492e7921f7e59a.jpg",
+    "static/media/03.jpg": "/cine-renzi/static/media/03.267b2dde942271d6bb0c.jpg",
+    "static/media/04.jpg": "/cine-renzi/static/media/04.fd1cdce854614f8df9af.jpg",
+    "static/media/02.jpg": "/cine-renzi/static/media/02.9494694d1581a55be0ad.jpg",
+    "static/media/logo.jpg": "/cine-renzi/static/media/logo.ae42fb90d946c5d18e8d.jpg",
+    "index.html": "/cine-renzi/index.html",
+    "main.745e386a.css.map": "/cine-renzi/static/css/main.745e386a.css.map",
+    "main.d474087c.js.map": "/cine-renzi/static/js/main.d474087c.js.map",
+    "787.0d617919.chunk.js.map": "/cine-renzi/static/js/787.0d617919.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.745e386a.css",
+    "static/js/main.d474087c.js"
+  ]
+}
