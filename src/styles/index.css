@@ -132,6 +132,11 @@ footer p {
   font-size: 1.2rem
 }
 
+.activa {
+  background-color: #0d6efd;
+  color: #fff;
+}
+
 
 @media (max-width: 992px) {
   .nav-link {

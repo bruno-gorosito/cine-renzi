@@ -8,17 +8,19 @@ const Barra = () => {
     const {seleccionarDia} = peliculasContext;
 
     const elegirDia = e => {
+        const claseActivas = document.getElementsByClassName('activa');
+        for (let i = 0; i < claseActivas.length; i++){
+            if (claseActivas[i].tagName === 'BUTTON') {
+                claseActivas[i].classList.remove('activa');
+            }
+        }
+        document.getElementById(`${e.target.value}`).classList.add('activa')
         seleccionarDia(e.target.value);
-        let claseActiva = document.getElementsByClassName('active');
-        for (let i = 0; i < claseActiva.length; i++ ) {
-            claseActiva[i].classList.remove('active');
-        } 
-        document.getElementById(`${e.target.value}`).classList.add('active');
     }
 
     return ( 
 
-        <ul class="list-group justify-content-center list-group-horizontal-lg">
+        <ul className="list-group justify-content-center list-group-horizontal-lg">
             <li>
                 <button 
                     className="list-group-item rounded"
@@ -76,7 +78,7 @@ const Barra = () => {
                 >Sábado</button>
             </li>
         </ul>
-     );
+    );
 }
- 
+
 export default Barra;
