@@ -57,9 +57,13 @@ h2, h4{
     'GRAD' 0,
     'opsz' 48;
     color: var(--blanco)
-  }
-  
-  
+}
+
+.evita-header {
+  padding-top: 8rem;
+  min-height: 100vh;
+}
+
 .bg-negro {
   background-color: var(--negro);
   color: var(--blanco) !important;
@@ -114,6 +118,7 @@ li {
 footer {
   background-color: var(--negro);
   margin: 0;
+  width: 100%;
   color: var(--blanco);
   padding: 2rem;
 }
@@ -126,10 +131,16 @@ footer  ul {
 
 footer li {
   padding: 0.5rem;
+  text-decoration: none;
+
 }
 
 footer p {
   font-size: 1.2rem
+}
+
+.list-footer {
+  text-decoration: none;
 }
 
 .activa {

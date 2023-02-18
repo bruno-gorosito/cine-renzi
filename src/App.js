@@ -1,19 +1,31 @@
-import React from 'react';
-import Carrusel from './components/Carrusel';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Presentacion from './components/Presentacion';
-import Principal from './components/Principal';
+import React, { useEffect } from 'react';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import Contacto from './components/cartelera/Contacto';
+import Estrenos from './components/cartelera/Estrenos';
+import Principal from './components/cartelera/Cartelera';
+import Footer from './components/layout/Footer';
+import Header from './components/layout/Header';
 import PeliculaState from './context/peliculaState';
+import Inicio from './components/cartelera/Inicio';
 
 
 function App() {
+
+  
+
+
   return (
     <PeliculaState>
-      <Header />      
-      <Carrusel />
-      <Principal />
-      <Footer />
+      <Router>
+        <Header />
+        <Routes>
+          <Route exact path='/' element={<Inicio />} />
+          <Route exact path='/cartelera' element={<Principal/>} />
+          <Route exact path='/contacto' element={<Contacto/>} />
+          <Route exact path='/estrenos' element={<Estrenos/>} />
+        </Routes>
+        <Footer />
+      </Router>
     </PeliculaState>
   );
 }

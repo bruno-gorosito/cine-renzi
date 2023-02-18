@@ -6,7 +6,7 @@ export default (state, action) => {
         case OBTENER_DIA:
             return{
                 ...state,
-                peliculasdia: state.peliculas.filter(pelicula => pelicula.dia === action.payload),
+                peliculasdia: state.programacion.map(pelicula => pelicula.dia === action.payload ? pelicula.funciones : null).filter(pelicula => pelicula !== null).flat(),
                 diaseleccionado: action.payload
             }
         default:

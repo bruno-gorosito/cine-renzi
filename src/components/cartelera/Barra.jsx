@@ -1,5 +1,5 @@
-import React, { useContext } from 'react';
-import PeliculaContext from '../context/peliculaContext';
+import React, { useContext, useEffect } from 'react';
+import PeliculaContext from '../../context/peliculaContext';
 
 
 const Barra = () => {
@@ -31,7 +31,7 @@ const Barra = () => {
             </li>
             <li>
                 <button 
-                    className='list-group-item  rounded' 
+                    className='list-group-item rounded' 
                     value='lunes'
                     id='lunes'
                     onClick={e => elegirDia(e)}
