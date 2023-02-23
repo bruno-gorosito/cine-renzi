@@ -9,7 +9,7 @@ const Principal = () => {
   
 
     const peliculasContext = useContext(PeliculaContext);
-    const {peliculas, peliculasdia, programacion, diaseleccionado} = peliculasContext;
+    const {peliculas, peliculasdia, diaseleccionado} = peliculasContext;
 
     const [peliculasActual, setPeliculasActual] = useState([]);
 

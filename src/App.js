@@ -16,7 +16,7 @@ function App() {
 
   return (
     <PeliculaState>
-      <Router>
+      <Router basename='/'>
         <Header />
         <Routes>
           <Route exact path='/' element={<Inicio />} />
