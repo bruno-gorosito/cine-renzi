@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import {HashRouter as Router, Routes, Route} from 'react-router-dom'
 import Contacto from './components/cartelera/Contacto';
 import Estrenos from './components/cartelera/Estrenos';
 import Principal from './components/cartelera/Cartelera';
