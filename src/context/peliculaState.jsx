@@ -9,6 +9,11 @@ import lansdcape1 from '../imgs/landscape1.png';
 import lansdcape2 from '../imgs/landscape2.jpg';
 import lansdcape3 from '../imgs/landscape3.jpg';
 import lansdcape4 from '../imgs/landscape4.jpg';
+import estreno1 from '../imgs/sonic.jpg';
+import estreno2 from '../imgs/shazam.jpg';
+import estreno3 from '../imgs/the-last-of-us.jpeg';
+import estreno4 from '../imgs/space-jam.jpg';
+
 
 
 import { OBTENER_DIA } from '../types';
@@ -45,7 +50,12 @@ const PeliculaState = props => {
                 {id: 11, nombre: 'Gato con Botas', img: pelicula2, horario: '21:30', sipnosis: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maiores blanditiis illo porro tenetur doloremque, culpa hic praesentium nihil doloribus quibusdam explicabo excepturi aliquid et, error tempora repellat officiis accusantium.'},
                 {id: 12, nombre: 'Avatar', img: pelicula3, horario: '15:30', sipnosis: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dolorum nostrum error quo numquam ullam quidem delectus nihil magni officia quis illum facilis aliquid minima iusto, molestiae aspernatur voluptatum deleniti!'}]}
         ],
-        estrenos: [],
+        estrenos: [
+            {id: 1, nombre: 'Sonic', img: estreno1, sipnosis: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis illum quidem nam nihil commodi temporibus atque, et quaerat? Beatae unde nostrum accusantium sapiente porro veritatis odio temporibus non aperiam.'},
+            {id: 2, nombre: 'Sha-zam', img: estreno2, sipnosis: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maiores blanditiis illo porro tenetur doloremque, culpa hic praesentium nihil doloribus quibusdam explicabo excepturi aliquid et, error tempora repellat officiis accusantium.'},
+            {id: 3, nombre: 'The last of us', img: estreno3, sipnosis: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore dolorum nostrum error quo numquam ullam quidem delectus nihil magni officia quis illum facilis aliquid minima iusto, molestiae aspernatur voluptatum deleniti!'},
+            {id: 4, nombre: 'Space Jam', img: estreno4, sipnosis: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas corrupti, temporibus rem natus expedita ex tenetur repellendus quisquam similique pariatur consequuntur laudantium, repellat quod voluptas eligendi voluptatum, laborum sunt nihil?'},
+        ],
         peliculas: [
             {id: 1, nombre: 'Ant-Man', img: pelicula1, sipnosis: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quis illum quidem nam nihil commodi temporibus atque, et quaerat? Beatae unde nostrum accusantium sapiente porro veritatis odio temporibus non aperiam.'},
             {id: 2, nombre: 'Gato con Botas', img: pelicula2, sipnosis: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maiores blanditiis illo porro tenetur doloremque, culpa hic praesentium nihil doloribus quibusdam explicabo excepturi aliquid et, error tempora repellat officiis accusantium.'},
