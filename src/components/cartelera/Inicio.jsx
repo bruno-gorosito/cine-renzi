@@ -10,7 +10,7 @@ const Inicio = () => {
     
     return (
         <div className="container evita-header">
-        <h1>Todavía no sé que poner aqui chango</h1>
+        <h1>Todavía no sé que poner aqui chango as</h1>
         </div>
     );
 };

@@ -26,11 +26,11 @@ const FormContacto = () => {
                 <label htmlFor="floatingTextarea">Mensaje</label>
             </div>
             <div className="d-grid gap-2 mb-3">
-                <button className="btn btn-dark bg-negro" type="submit">Button</button>
+                <button className="btn btn-dark bg-negro" type="submit">Enviar</button>
             </div>
 
         </form>
     );
 }
- 
+
 export default FormContacto;
