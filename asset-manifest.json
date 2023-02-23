@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cine-renzi/static/css/main.3a672884.css",
-    "main.js": "/cine-renzi/static/js/main.61ce0f52.js",
+    "main.css": "/cine-renzi/static/css/main.12df4605.css",
+    "main.js": "/cine-renzi/static/js/main.ba168912.js",
     "static/js/787.0d617919.chunk.js": "/cine-renzi/static/js/787.0d617919.chunk.js",
     "static/media/01.jpg": "/cine-renzi/static/media/01.57bb68492e7921f7e59a.jpg",
     "static/media/landscape1.png": "/cine-renzi/static/media/landscape1.24ed28ad791e2f718c25.png",
@@ -12,17 +12,18 @@
     "static/media/04.jpg": "/cine-renzi/static/media/04.fd1cdce854614f8df9af.jpg",
     "static/media/landscape3.jpg": "/cine-renzi/static/media/landscape3.5935043b2fadb806a9e3.jpg",
     "static/media/shazam.jpg": "/cine-renzi/static/media/shazam.3e3c97814a27d22e6a09.jpg",
+    "static/media/shazam-landscape.jpg": "/cine-renzi/static/media/shazam-landscape.ca87d8ec29e4b51d9973.jpg",
     "static/media/logo.png": "/cine-renzi/static/media/logo.bd5fce04a36432ac4373.png",
     "static/media/sonic.jpg": "/cine-renzi/static/media/sonic.f8b255ada5202287ca83.jpg",
     "static/media/02.jpg": "/cine-renzi/static/media/02.9494694d1581a55be0ad.jpg",
     "static/media/landscape2.jpg": "/cine-renzi/static/media/landscape2.6f14ca70bc04f6782dc6.jpg",
     "index.html": "/cine-renzi/index.html",
-    "main.3a672884.css.map": "/cine-renzi/static/css/main.3a672884.css.map",
-    "main.61ce0f52.js.map": "/cine-renzi/static/js/main.61ce0f52.js.map",
+    "main.12df4605.css.map": "/cine-renzi/static/css/main.12df4605.css.map",
+    "main.ba168912.js.map": "/cine-renzi/static/js/main.ba168912.js.map",
     "787.0d617919.chunk.js.map": "/cine-renzi/static/js/787.0d617919.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a672884.css",
-    "static/js/main.61ce0f52.js"
+    "static/css/main.12df4605.css",
+    "static/js/main.ba168912.js"
   ]
 }
