@@ -6,7 +6,6 @@ import Principal from './components/cartelera/Cartelera';
 import Footer from './components/layout/Footer';
 import Header from './components/layout/Header';
 import PeliculaState from './context/peliculaState';
-import Inicio from './components/cartelera/Inicio';
 
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
       <Router basename='/'>
         <Header />
         <Routes>
-          <Route exact path='/' element={<Inicio />} />
+          <Route exact path='/' element={<Principal />} />
           <Route exact path='/cartelera' element={<Principal/>} />
           <Route exact path='/contacto' element={<Contacto/>} />
           <Route exact path='/estrenos' element={<Estrenos/>} />
